@@ -2,7 +2,6 @@ FROM ubuntu:xenial
 MAINTAINER ASCDC <lemuretc@gmail.com>
 
 RUN DEBIAN_FRONTEND=noninteractive && \
-	chmod +x /script/*.sh && \
 	apt-get -qq update && \
 	apt-get -y -qq dist-upgrade && \
 	apt-get -qq install -y locales && \
