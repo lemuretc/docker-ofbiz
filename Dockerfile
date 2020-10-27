@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-MAINTAINER ASCDC <lemuretc@gmail.com>
+MAINTAINER KORE <lemuretc@gmail.com>
 
 RUN DEBIAN_FRONTEND=noninteractive && \
 	apt-get -qq update && \
